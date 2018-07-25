@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#C1CDCD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#ffffff">
+    </View>
+
+    <TextView
+        android:textColor="@color/remember"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:text="Time"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView13" />
+
+    <TextView
+        android:text="MSG"
+        android:textStyle="bold"
+        android:textColor="#00004C"
+        android:fontFamily="serif-monospace"
+        android:textSize="27dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:textColor="@color/remember"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:text="Date"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:id="@+id/textView11"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="User Name"
+        android:textSize="20dp"
+        android:textColor="@color/remember"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView9"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

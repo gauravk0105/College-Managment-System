@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:orientation="vertical"
+    android:background="@color/c3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.dell.sphinx_project.ProfileActivity">
+
+
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_marginTop="150dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <Button
+           style="@style/mybuttonstyle"
+           android:id="@+id/button1"
+           android:textStyle="bold"
+           android:textSize="28dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="32dp"
+           android:text="Browse Tutorials and Quizes" />
+
+
+           <TextView
+               android:textStyle="bold"
+               android:layout_gravity="center"
+               android:id="@+id/textView5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="26dp"
+               android:textSize="40dp"
+               android:fontFamily="serif"
+               android:text="About Us"
+               android:textAppearance="?android:attr/textAppearanceLarge" />
+
+           <TextView
+               android:textSize="25dp"
+               android:textStyle="bold"
+               android:textColor="@color/remember"
+               android:layout_gravity="center"
+               android:fontFamily="serif-monospace"
+               android:id="@+id/textView6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="14dp"
+               android:text="Sphinx_Project" />
+   </LinearLayout>
+
+
+
+</LinearLayout>

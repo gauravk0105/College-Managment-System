@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signin_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.dell.sphinx_project.Signin_Activity">
+
+    <TextView
+        android:text="I Am"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/remember"
+        android:fontFamily="serif-monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" >
+
+        <RadioButton
+            android:id="@+id/p"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:checked="true"/>
+
+        <RadioButton
+            android:textSize="24dp"
+            android:id="@+id/a"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/My_Container_2_ID"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="#dedd00"
+        android:layout_below="@+id/rg1"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="500dp">
+    </FrameLayout>
+
+
+</RelativeLayout>
